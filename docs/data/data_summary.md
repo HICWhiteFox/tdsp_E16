@@ -8,11 +8,15 @@ Para el entrenamiento del modelo se cuenta con un dataset denominado "fakes1000"
 
 ## Resumen de calidad de los datos
 
-Como se anotó, el dataset no contiene valres faltantes y cuenta con dos variables, el texto y la clase, por ende no hay variables adicionales con las cuales efectuar análisis de correlación.  La variable clase, por su parte, se encuentra balanceada, por lo que no será necesario aplicar técnicas de balanceo. 
+Como se anotó, el dataset no contiene valores faltantes y cuenta con dos variables, el texto y la clase, por ende no hay variables adicionales con las cuales efectuar análisis de correlación.  La variable clase, por su parte, se encuentra balanceada, por lo que no será necesario aplicar técnicas de balanceo. 
 
 Al efectuar el análisis exploratorio se identifica que cada texto es un fragmento de la noticia que en promedio, para ambas clases, cuenta con 40 +/- 14 palabras. 
 
+![Text_Length_Distribution (3)](https://github.com/user-attachments/assets/f91a1e7a-8576-40c9-9c54-17eab96273cf)
+
 Al realizar una clasificación del idioma de los textos, se identifica que en su gran mayoría son catalogados como español, no obstante, 31 son categorizados como otros idiomas.  Se efectúa una revisión manual de estos textos y se puede concluir que si están en español pero contienen algunas palabras en otro idioma que son parte del contexto de la noticia por lo que se espera no generen algún problema en el modelo y por ende se mantendrán dentro del corpus. 
+
+![class_distribution (2)](https://github.com/user-attachments/assets/392772e8-f278-4845-9719-7aabc3a02e97)
 
 ## Variable objetivo
 
@@ -21,3 +25,6 @@ El proyecto busca como objetivo desarrollar un modelo para predecir si una notic
 ## Variables individuales
 
 El dataset no cuenta con variables adicionales al texto y la clase. 
+
+
+
