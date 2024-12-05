@@ -1,0 +1,5 @@
+outs:
+- md5: 14a97b224a3d3bd474f6ae22b414f233
+  size: 495217
+  hash: md5
+  path: fakes1000.csv

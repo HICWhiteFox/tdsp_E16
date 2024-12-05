@@ -1,0 +1,5 @@
+outs:
+- md5: 600dff522dae832a984d71a71f0eff8a
+  size: 239547
+  hash: md5
+  path: onlyfakes1000.csv
