@@ -11,7 +11,7 @@
 
 ## Base de datos: onyfakes1000
 
-**El dataset es un archivo en formato CSV que contiene 1.000 noticias,todas falsas.
+**El dataset es un archivo en formato CSV que contiene 1.000 noticias,todas falsas.  Corresponde a las 1.000 noticias falsas extraídas del dataset "fakes1000"
 
 | Variable | Descripción | Tipo de dato | Rango/Valores posibles | 
 | --- | --- | --- | --- |
@@ -19,7 +19,7 @@
 
 ## Base de datos: onytrue1000
 
-**El dataset es un archivo en formato CSV que contiene 1.000 noticias, todas verdaderas.
+**El dataset es un archivo en formato CSV que contiene 1.000 noticias, todas verdaderas. Corresponde a las 1.000 noticias verdaderas extraídas del dataset "fakes1000"
 
 | Variable | Descripción | Tipo de dato | Rango/Valores posibles | 
 | --- | --- | --- | --- |
