@@ -3,6 +3,7 @@
 from fastapi import FastAPI # importamos el API
 from pydantic import BaseModel
 from typing import List
+import os
 import joblib # importamos la librería para cargar el modelo
 
 class ApiInput(BaseModel):
