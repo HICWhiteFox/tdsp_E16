@@ -18,4 +18,4 @@ COPY src/ /app/src/
 EXPOSE 8080
 
 # Establece el comando por defecto para ejecutar el contenedor
-CMD ["python", "src/main.py"]
+CMD ["python", "app/src/main.py"]
