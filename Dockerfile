@@ -9,11 +9,11 @@ COPY pyproject.toml /app/
 
 # Instala las dependencias necesarias
 RUN pip install --upgrade pip setuptools wheel
-#RUN pip install .
+
 
 # Copia el código fuente al contenedor
 COPY src/ /app/src/
-
+RUN pip install -r /app/src/requirements.txt
 # Expone el puerto si es necesario
 EXPOSE 8080
 
