@@ -12,7 +12,7 @@ class ApiOutput(BaseModel):
 app = FastAPI() # creamos el api
 model = joblib.load("model.joblib") # cargamos el modelo.
 
-@app.post("/hate") # creamos api que permita requests de tipo post.
+@app.post("/fake") # creamos api que permita requests de tipo post.
 async def define_sentiment(data: ApiInput) -> ApiOutput:
     predictions = model.predict(data.texts).flatten().tolist() # generamos la predicción
     preds = ApiOutput(is_hate=predictions) # estructuramos la salida del API.
