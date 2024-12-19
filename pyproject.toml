@@ -3,7 +3,7 @@ requires = ["setuptools", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "noticias feke"
+name = "noticias_fake"
 version = "0.1.0"
 authors = [{name = "Gloria Rincon", email = "correo@correo.com"},{name = "Claudia Cañon", email = "correo@correo.com"}]
 description = "Proyesto de ML para la deteccion de noticias falsas"
