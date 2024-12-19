@@ -9,7 +9,7 @@ class ApiInput(BaseModel):
     texts: List[str]
 
 class ApiOutput(BaseModel):
-    is_hate: List[int]
+    is_fake: List[int]
 
 app = FastAPI() # creamos el api
 model = joblib.load("model.joblib") # cargamos el modelo.
@@ -19,3 +19,9 @@ async def define_sentiment(data: ApiInput) -> ApiOutput:
     predictions = model.predict(data.texts).flatten().tolist() # generamos la predicción
     preds = ApiOutput(is_fake=predictions) # estructuramos la salida del API.
     return preds # retornamos los resultados
+
+# Configuramos el puerto para Railway
+if __name__ == "__main__":
+    port = int(os.getenv("PORT", 8080))
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=port)
