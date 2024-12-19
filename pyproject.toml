@@ -13,4 +13,4 @@ dependencies = [
 ]
 
 [tool.setuptools.packages.find]
-where = ["src/nombre_paquete"]
+where = ["src"]
