@@ -9,7 +9,7 @@ COPY pyproject.toml /app/
 
 # Instala las dependencias necesarias
 RUN pip install --upgrade pip setuptools wheel
-RUN pip install .
+#RUN pip install .
 
 # Copia el código fuente al contenedor
 COPY src/ /app/src/
