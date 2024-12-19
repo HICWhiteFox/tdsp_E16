@@ -1,7 +1,4 @@
-pip install scikit-learn
-pip install fastapi
-pip install uvicorn
-pip install joblib
+pip install -r requirements.txt
 
 from fastapi import FastAPI # importamos el API
 from pydantic import BaseModel
