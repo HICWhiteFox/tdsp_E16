@@ -14,5 +14,8 @@ RUN pip install .
 # Copia el código fuente al contenedor
 COPY src/ /app/src/
 
+# Expone el puerto si es necesario
+EXPOSE 8080
+
 # Establece el comando por defecto para ejecutar el contenedor
 CMD ["python", "src/main.py"]
