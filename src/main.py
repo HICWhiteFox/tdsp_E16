@@ -1,3 +1,5 @@
+pip freeze > requirements.txt
+
 from fastapi import FastAPI # importamos el API
 from pydantic import BaseModel
 from typing import List
