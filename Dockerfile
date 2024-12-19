@@ -3,7 +3,7 @@ FROM python:3.8-slim
 
 # Establece el directorio de trabajo dentro del contenedor
 WORKDIR /app
-
+WORKDIR /app/src
 # Copia el archivo pyproject.toml al contenedor
 COPY pyproject.toml /app/
 
