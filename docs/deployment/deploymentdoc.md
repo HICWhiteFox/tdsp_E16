@@ -3,7 +3,7 @@
 ## Infraestructura
 
 - **Nombre del modelo:** model.joblib y vectorizer.joblib
-- **Plataforma de despliegue:** fats API con Railway
+- **Plataforma de despliegue:** fast API con Railway
 - **Requisitos técnicos:** Python 3.8 o superior y todos almacenado en el archivo reqirements.txt
 - **Requisitos de seguridad:** Ninguno
 - **Diagrama de arquitectura:** Todo se encuentra en el notebook que se utilizo para generar todo lo relacionado al despliegue
