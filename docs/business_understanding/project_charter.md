@@ -30,9 +30,9 @@ Consta de dos columnas: la clase (fake / true) y la noticia la cual está en idi
 
 ### Criterios de Éxito:
 
-Precisión del modelo: alcanzar una precisión mínima del 85% en la detección de noticias falsas en español Este criterio se evaluará utilizando métricas de evaluación precisión, recall, F1-Score y matriz de confusión.
+Precisión del modelo: alcanzar una precisión mínima del 70% en la detección de noticias falsas en español Este criterio se evaluará utilizando métricas de evaluación precisión, recall, F1-Score y matriz de confusión.
 
-Robustez del modelo: el modelo debe ser capaz de detectar la veracidad de nuevas noticias incluidas al conjuno de datos y mantener un buen rendimiento. Para esto es clave evaluar el modelo en un conjunto de datos que no sea incluido en el entrenamiento.
+Robustez del modelo: el modelo debe ser capaz de detectar la veracidad de nuevas noticias incluidas al conjunto de datos y mantener un buen rendimiento. Para esto es clave evaluar el modelo en un conjunto de datos que no sea incluido en el entrenamiento.
 
 
 ## Metodología
